@@ -95,11 +95,6 @@ volatile ev1527_T ev1527_Data = {.rawValue = 0x0};  /**< Decoded RF data structu
  * ------------------------------------------------------- */
 ISR(INT0_vect) 
 {
-  /* Debug output toggle (for oscilloscope verification) */
-  GPIO_Config_OUTPUT(DDRC, 0);                             /**< Configure PC0 as output for debug */
-  bitSet(PORTC, 0);                                        /**< Set PC0 high */
-  bitClear(PORTC, 0);                                      /**< Clear PC0 low (creates pulse for timing verification) */
-  
   /* State machine static variables (persist between ISR calls) */
   static bool firstTime_Trigger = true;                    /**< Flag: true=first edge not yet detected, initialize on first edge */
   static bool measureDone = false;                         /**< Flag: true=complete HIGH+LOW pulse measured, ready to process */
